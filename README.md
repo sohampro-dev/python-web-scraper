@@ -76,6 +76,12 @@ pip install -r requirements.txt
 - requests
 - beautifulsoup4
 - pandas
+Install required packages if not already installed
+```bash
+pip install requests
+pip install beautifulsoup4
+pip install pandas
+```
 
 
 ---
@@ -124,6 +130,10 @@ The extracted data is saved in: quotes.csv/quotes_gui.csv
 - Click a button to start scraping
 - Automatically export results
 - The interface is built using Tkinter.
+
+## Screenshot
+
+![Web Scraper GUI](screenshots/gui_interface.jpg)
 
 ## 🛡 Error Handling
 
