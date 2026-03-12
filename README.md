@@ -42,6 +42,7 @@ python-web-scraper
 │
 ├── data
 │ └── quotes.csv
+│ └── quotes_gui.csv
 │
 ├── screenshots
 │ ├── gui_interface.png
@@ -113,7 +114,7 @@ soup = BeautifulSoup(response.text, "html.parser")
 quotes = soup.find_all("span", class_="text")
 authors = soup.find_all("small", class_="author")
 
-The extracted data is saved in: quotes.csv
+The extracted data is saved in: quotes.csv/quotes_gui.csv 
 ```
 
 ## 💻 GUI Interface
